@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
-    "restaurants.apps.RestaurantsConfig"
+    "foods.apps.FoodsConfig"
 ]
 
 MIDDLEWARE = [
@@ -83,7 +83,7 @@ DATABASES = {
     }
 }
 
-AUTH_USER_MODEL = 'restaurants.User'
+AUTH_USER_MODEL = 'foods.User'
 
 import pymysql
 
